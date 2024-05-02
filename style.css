@@ -1,0 +1,74 @@
+#mainbody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Use viewport height to fill the entire screen */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#main {
+    text-align: center;
+    background: #ffc107;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+    flex: 0 0 auto; /* Let it take as much space as needed */
+}
+
+#sec {
+    background: black;
+    border-radius: 15px;
+    position: relative;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1; /* Take up remaining space */
+}
+
+
+#infoButton {
+    color: black;
+    font-size: 5vh;
+    border: black 2px solid;
+    border-radius: 15px;
+    transition: ease-in-out 0.3s;
+    background: #ffc107;
+}
+
+#infoButton:hover {
+    transform: scale(1.1, 1.1);
+    background: black;
+    color: #ffc107;
+}
+
+#inputButton {
+    font-size: 5vh;
+    border-radius: 15px;
+    transition: ease-in-out 0.3s;
+}
+
+#inputButton:hover {
+    transform: scale(1.1, 1.1);
+}
+
+table {
+    margin: 0 auto;
+}
+
+td, tr, th, p {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.result {
+    text-align: center;
+    background: #ffc107;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+}
